@@ -9,6 +9,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230419.0",
     "@types/adobe__pdfservices-node-sdk": "^2.2.0",
+    "drizzle-kit": "^0.18.1",
     "itty-router": "^3.0.12",
     "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
@@ -16,6 +17,7 @@
   "dependencies": {
     "@adobe/pdfservices-node-sdk": "^3.3.0",
     "cdate": "^0.0.6",
+    "drizzle-orm": "^0.26.5",
     "xlsx": "^0.18.5"
   }
 }

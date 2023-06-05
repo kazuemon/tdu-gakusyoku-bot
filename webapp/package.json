@@ -1,0 +1,23 @@
+{
+  "name": "tdu-gakusyoku-webapp",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "pages:dev": "wrangler pages dev --compatibility-date=2023-06-05 --proxy 3000 -- astro dev",
+    "pages:deploy": "astro build && wrangler pages publish ./dist"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^6.3.0",
+    "astro": "^2.5.7",
+    "drizzle-orm": "^0.26.5"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.18.1",
+    "wrangler": "^3.0.1"
+  }
+}

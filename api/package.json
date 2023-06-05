@@ -7,10 +7,12 @@
     "deploy": "wrangler pages deploy ./pages"
   },
   "dependencies": {
+    "drizzle-orm": "^0.26.5",
     "hono": "^3.2.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230518.0",
+    "drizzle-kit": "^0.18.1",
     "wrangler": "^3.0.1"
   }
 }
