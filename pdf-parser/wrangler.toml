@@ -1,6 +1,15 @@
 name = "tdu-gakusyoku-pdf-parser"
 main = "src/worker.ts"
-compatibility_date = "2023-06-04"
+compatibility_date = "2023-05-18"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+PDF_URL = "https://livexnet.jp/portal/jump/email/link.asp?id=dendai_menu"
+
+[[d1_databases]]
+binding = "DB" # env.DB
+database_name = "gakusyoku"
+database_id = "e97dda6a-878a-4b1b-8ad2-bbec9c76818d"
 
 # # KV Namespace binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv
 # [[kv_namespaces]]

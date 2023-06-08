@@ -4,15 +4,16 @@
   "license": "MIT",
   "scripts": {
     "deploy": "wrangler publish",
-    "start": "wrangler dev"
+    "start": "wrangler dev --remote --test-scheduled"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230419.0",
     "@types/adobe__pdfservices-node-sdk": "^2.2.0",
+    "@types/node": "^20.2.5",
     "drizzle-kit": "^0.18.1",
     "itty-router": "^3.0.12",
     "typescript": "^5.0.4",
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.0.1"
   },
   "dependencies": {
     "@adobe/pdfservices-node-sdk": "^3.3.0",
